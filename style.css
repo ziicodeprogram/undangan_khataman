@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: #f7f7f7;
+    flex-direction: column;
+    font-family: 'Trajan Pro',sans-serif ;
+}
+.page-1{
+    width: 526px;
+    height: 95vh;
+    border: 1px solid rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(gambar/bg1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: top center;
+      margin-top: 20px;
+}
+.wrapper{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-top: 20px;
+}
+.ornamen{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo{
+    width: 170px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+.arab{
+    width: 320px;
+    margin-top: 40px;
+}
+.nama-lembaga{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.nama-lembaga p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.nama-lembaga h3{
+    text-align: center;
+    font-size: 13px;
+}
+.alamat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.alamat h4{
+    font-size: 12px;
+}
+.alamat h3{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 4px;
+}
+.orn-bawah{
+    width: 527px;
+    margin-top: 10px;
+    height: 60px;
+}
+.invite a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(62, 62, 62);
+    font-weight: 800;
+    border: 3px solid rgb(238, 148, 14);
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: box-shadow 0.3s ease;
+}
+.invite a:hover{
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+}
+.wrapper2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-top: 70px;
+}
+.ornamen2{
+    width: 240px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 28px;
+    z-index: 1;
+}
+.logo2{
+    width: 75px;
+    height: auto;
+    position: absolute;
+    top: 118px;
+    left: 149px;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+.nama-kegiatan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nama-kegiatan h3{
+    font-size: 15px;
+}
+.almt2{
+    font-size: 12px;
+}
+.orna-kecil{
+    width: 90px;
+    margin-top: 10px;
+}
+.Yth{
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.page-3{
+     width: 526px;
+    height: 800px;
+    border: 1px solid rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(gambar/bg1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: top center;
+}
+.judul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.judul img{
+    width: 60px;
+}
+.nama-pp{
+    padding: 7px;
+}
+.nama-pp h4{
+    font-size: 12px;
+}
+.nama-pp p{
+    font-size: 7px;
+}
+.page-3 I{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+.pembukaan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+}
+.pembukaan p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.wadah-date{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.wadah-date table{
+    border: px solid black;
+}
+.wadah-date table tr td{
+    border: px solid black;
+    font-weight: 550;
+}
+.ttd{
+    width: 450px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.logo3{
+    width: 100px;
+}
+.ktr{
+    margin-left: 10px;
+}
+.ktr p{
+    font-size: 13px; 
+    margin-top: 5px;
+}
+.ktr h3{
+    font-size: 25px;
+}
+.segmen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.tanda{
+    width: 33px;
+}
+.segmen h3{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.rundown{
+    margin-top: 20px;
+    width: 83%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border: px solid black;
+}
+.sambutan{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.mauidzoh{
+   margin-left: 50px;
+    margin-bottom: 5px; 
+}
+.contact p{
+    font-size: 13px;
+    font-weight: 450;
+}
