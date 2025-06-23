@@ -4,18 +4,20 @@
     box-sizing: border-box;
     
 }
-body{
-    min-height: 100dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+    min-height: 100vh;
     margin: 0;
     background: #f7f7f7;
-    flex-direction: column;
-    font-family: 'Trajan Pro',sans-serif ;
+    font-family: 'Trajan Pro', sans-serif;
 }
 .page-1{
-    width: 526px;
+    width: 100%;
+    max-width: 526px;
+    margin: 0 auto;
     height: 95vh;
     border: 1px solid rgb(204, 204, 204);
     display: flex;
@@ -156,7 +158,9 @@ body{
 }
 
 .page-3{
-     width: 526px;
+    width: 100%;
+    max-width: 526px;
+    margin: 0 auto;
     height: 800px;
     border: 1px solid rgb(204, 204, 204);
     display: flex;
