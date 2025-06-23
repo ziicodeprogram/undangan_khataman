@@ -225,12 +225,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Klik tombol aktifkan scroll
     document.querySelector(".invite a").addEventListener("click", function (e) {
-        e.preventDefault();
-        allowScroll = true;
-        document.body.style.overflow = "hidden";
-        scrollToPage(1);
-    });
-
+    e.preventDefault();
+    allowScroll = true;
+    document.body.style.overflow = "auto"; // buka scroll
+    scrollToPage(1);
+});
     function scrollToPage(index) {
         if (index < 0 || index >= pages.length) return;
         currentPage = index;
